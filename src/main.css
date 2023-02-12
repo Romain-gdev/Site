@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: conic-gradient(at 0% 0%,#2C2C6C 30%, #F472B6 60%, #4db5FF 70%),
+    conic-gradient(at 100% 100%,#2C2C6C 30%, #F472B6 60%, #4db5FF 70%)
+    ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo {
+    width: 1890px;
+    height: 1417px;
+}
+
+.txtProfil {
+    color: #4db5FF
+}
+
+.ant-card-head-title{
+    font-weight: bold;
+    color: #4db5FF;
+    width: 100%;
+}
